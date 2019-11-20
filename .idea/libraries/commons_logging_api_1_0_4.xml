@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="commons-logging-api-1.0.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-api-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-5.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
