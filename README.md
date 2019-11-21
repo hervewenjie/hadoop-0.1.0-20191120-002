@@ -19,6 +19,9 @@ LocalJobRunner是本地实现
   - CombiningCollector缓存一个key对于一个list, 在被发送到reducer之前, 减少网络传输
   - MapTask运行完成生成/tmp/hadoop/mapred/local/part-0.out/map_crhuf5
   - reduce任务生成/tmp/hadoop/mapred/local/map_crhuf5.out, remove文件/tmp/hadoop/mapred/local/part-0.out/map_crhuf5
-  - 运行ReduceTask
+  - ReduceTask
+      - 把map的输出copy到一个文件中
+      - sort这个文件的key对应的value
+      - 运行reduce函数
   
 # 集群模式
