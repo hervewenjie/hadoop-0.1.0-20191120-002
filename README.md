@@ -2,6 +2,8 @@
 init
 Hadoop 0.1.0分析
 
+# 本地模式
+
 LocalJobRunner是本地实现
   run方法中
   获得input文件分片
