@@ -4,7 +4,7 @@ Hadoop 0.1.0分析
 
 # 本地模式
 
-LocalJobRunner是本地实现
+LocalJobRunner是本地实现JobSubmissionProtocol
   run方法中
   获得input文件分片
   每个分片用一个MapTask运行
@@ -25,3 +25,5 @@ LocalJobRunner是本地实现
       - 运行reduce函数
   
 # 集群模式
+
+JobTracker是集群模式实现JobSubmissionProtocol
