@@ -21,3 +21,4 @@ LocalJobRunner是本地实现
   - reduce任务生成/tmp/hadoop/mapred/local/map_crhuf5.out, remove文件/tmp/hadoop/mapred/local/part-0.out/map_crhuf5
   - 运行ReduceTask
   
+# 集群模式
